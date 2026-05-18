@@ -1,0 +1,50 @@
+SETUP AND REQUIREMENTS:
+
+Install the required packages using pip:
+
+pip install pandas numpy matplotlib seaborn scipy scikit-learn openpyxl
+
+Required Packages:
+
+Package: pandas
+Version: 1.5.0 or higher
+Purpose: Data manipulation and analysis
+
+Package: numpy
+Version: 1.23.0 or higher
+Purpose: Numerical computing
+
+Package: matplotlib
+Version: 3.6.0 or higher
+Purpose: Visualization
+
+Package: seaborn
+Version: 0.12.0 or higher
+Purpose: Statistical plots
+
+Package: scipy
+Version: 1.9.0 or higher
+Purpose: Statistical tests and signal processing
+
+Package: scikit-learn
+Version: 1.1.0 or higher
+Purpose: Machine learning models
+
+Package: openpyxl
+Version: 3.0.0 or higher
+Purpose: Excel file reading
+
+Data Setup:
+
+Download the CALCE CS2 dataset from:
+https://calce.umd.edu/battery-data
+
+Extract the files while keeping the original folder structure (Type 1, Type 2, etc.).
+
+Update the BASE_PATH variable in the code cell to point to your local data directory.
+
+Running the Notebook
+
+Kernel: Python 3.8 or higher
+Runtime: Approximately 14 minutes
+Memory: Around 4 GB RAM
